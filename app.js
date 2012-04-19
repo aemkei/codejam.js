@@ -1,4 +1,4 @@
-var codejam = require("./codejam.js");
+var codejam = require("./lib/codejam.js");
 
 // Modify the following function and return the correct answer.
 
@@ -7,6 +7,5 @@ function evaluate(line){
   var array = line.split(" ");
   return array.length * array.length;
 }
-
 
 codejam.run(evaluate);

@@ -10,7 +10,7 @@ It uses a simple Node.js module to parse the input and generate the output.
 * Replace the file [problem.in](/aemkei/codejam.js/blob/master/problem.in) with the provided input.
 * Hack your code in [app.js](/aemkei/codejam.js/blob/master/app.js).
 * Run [build.sh](/aemkei/codejam.js/blob/master/build.sh) to generate the output files.
-* Upload [results.out](/aemkei/codejam.js/blob/master/results.out) and [answer.zip](/aemkei/codejam.js/blob/master/answer.zip) to validate your entry.
+* Upload the results in [/output](/aemkei/codejam.js/blob/master/output) to validate your entry.
 
 _Hint:_ You might modify your editor to generate the output everytime you hit "save".
 

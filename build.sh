@@ -1,4 +1,4 @@
-rm answer.zip
-node app.js > results.out
-zip -q answer.zip *.js problem.in results.out
-cat results.out
+rm output/archiv.zip
+/usr/local/bin/node app.js > output/results.out
+zip -q output/archiv.zip *.js problem.in output/results.out
+cat output/results.out
