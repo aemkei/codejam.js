@@ -29,7 +29,7 @@ _.each(results, function(line, index){
   var count = 0;
   
   function log(value){
-    console.log("Case #" + (index+1) + ": " + value)
+    console.log("Case #" + index + ": " + value)
   }
   
   function validate(){
@@ -37,13 +37,8 @@ _.each(results, function(line, index){
       return item.want > item.available;
     });
   }
-  
-  function isnull(){
-    return !_.filter(items, function(item){
-      return item.want > 0;
-    }).length;
-  }
 
+  
   function buy(){
     
     
@@ -76,17 +71,12 @@ _.each(results, function(line, index){
   }
   
   
-  if (isnull()){
-    log(0)
-    return;
-  }
-  
   if (validate()){
-    log(-1);
+    log(-1)
     return;
+  } else {
+    buy();    
   }
-  
-  buy();    
   
   
   
