@@ -1,4 +1,4 @@
 rm answer.zip
-node script.js > results.out
-zip -r answer.zip script.js underscore.js results.out
+node app.js > results.out
+zip -q answer.zip *.js problem.in results.out
 cat results.out
